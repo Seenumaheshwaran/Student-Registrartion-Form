@@ -1,0 +1,89 @@
+h2{
+    text-align: center;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:aliceblue;
+  }
+body{
+    background-color:rgb(200, 245, 230);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+  }
+input[type="text"], select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input[type="text"]:focus, select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="number"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .btn:active {
+    background-color: #2e6d34;
+  }
+  .btn[type="reset"] {
+    background-color: #ff0000;
+  }
+  
+  .btn[type="reset"]:hover {
+    background-color: #ff3737;
+  }
+    
+  .btn[type="reset"]:active {
+    background-color: #ff0000;
+  }
+
+
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+    form {
+      max-width: 100%;
+      padding: 10px;
+    }
+    label {
+      margin-bottom: 5px;
+    }
+    input[type="text"], select {
+      margin-bottom: 10px;
+    }
+    .btn {
+      padding: 5px 10px;
+    }
+  }
+  
